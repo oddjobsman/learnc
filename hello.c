@@ -1,5 +1,7 @@
+/* Program 1.1 Your Very First C Program - Displaying Hello World */
 #include <stdio.h>
 
-main() {
+int main() {
     printf("Hello, World!\n");
+    return 0;
 }
