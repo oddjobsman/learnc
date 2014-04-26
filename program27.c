@@ -8,7 +8,7 @@ int main(void) {
 
 	piece_length = plank_length / piece_count;
 
-	printf("A plank %f feet long can be cut into %f pieces of %f feet long.\n", 
+	printf("A plank %.2f feet long can be cut into %.0f pieces of %.2f feet long.\n", 
 		plank_length, piece_count, piece_length);
 
 	return 0;
