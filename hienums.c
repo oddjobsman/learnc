@@ -11,12 +11,18 @@ int main(void) {
         current_month = last_month + 1,
         next_month = current_month + 1;
 
+    /* define an unnamed enum and a variable */
+    enum {red, orange, yellow, green, blue, indigo, violet} color;
+
+    color = indigo;                             /* set the color */
+
     /* add 2 days to today */
     today = today + 2;
 
     printf("Today is %d\n", today);
     printf("Last Month was %d, current month is %d and next month is %d\n", 
         last_month, current_month, next_month);
+    printf("The selected color is: %d\n", color);
 
     return 0;
 }
