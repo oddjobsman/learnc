@@ -5,3 +5,4 @@
 bin/
 *.o
 *.lib
+DS_Store/
